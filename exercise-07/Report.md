@@ -1,4 +1,4 @@
-# Exercise 07 Report
+# Exercise 07 
 
 ## Title
 Respiratory Mechanics With Natural Breathing and Assisted Flow-Tracking Control
