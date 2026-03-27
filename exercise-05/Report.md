@@ -1,4 +1,4 @@
-# Exercise 05 Report
+# Exercise 05
 
 ## Title
 Two-Compartment Solute and Fluid Dynamics During Hemodialysis: Single Session and Repeated Sessions
