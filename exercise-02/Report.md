@@ -1,4 +1,4 @@
-# Exercise 02 Report
+# Exercise 02
 
 ## Title
 Simulation of Systemic Circulation Without Control During Hemorrhage
