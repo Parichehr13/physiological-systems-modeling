@@ -1,4 +1,4 @@
-# Exercise 10 Report
+# Exercise 10
 
 ## Title
 Hodgkin-Huxley Membrane Dynamics Under Constant Current Stimulation
