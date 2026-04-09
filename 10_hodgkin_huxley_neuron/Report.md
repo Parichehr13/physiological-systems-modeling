@@ -1,10 +1,10 @@
-﻿# Module 10
+﻿# Project 10
 
 ## Title
 Hodgkin-Huxley Membrane Dynamics Under Constant Current Stimulation
 
 ## Executive Summary
-This module simulates the Hodgkin-Huxley neuronal membrane model under constant injected current (`I = 15`). The model produces a periodic train of action potentials over 100 ms, with realistic coupling between membrane voltage, gating variables (`m`, `n`, `h`), and voltage-dependent sodium/potassium conductances.
+This project simulates the Hodgkin-Huxley neuronal membrane model under constant injected current (`I = 15`). The model produces a periodic train of action potentials over 100 ms, with realistic coupling between membrane voltage, gating variables (`m`, `n`, `h`), and voltage-dependent sodium/potassium conductances.
 
 The results are consistent with classical excitability behavior: fast sodium activation drives the spike upstroke, sodium inactivation and delayed potassium activation drive repolarization, and the cycle repeats at a regular firing rate.
 
@@ -74,10 +74,10 @@ The simulation reproduces the hallmark Hodgkin-Huxley firing cycle under tonic s
 
 The repeated spike train indicates that `I = 15` is above the threshold for sustained firing in this parameter setup. The conductance traces confirm the expected sodium-leading/potassium-lagging interaction that stabilizes periodic oscillations in membrane voltage.
 
-Overall, module 10 provides a strong numerical demonstration of excitability and repetitive firing in a conductance-based neuron model.
+Overall, project 10 provides a strong numerical demonstration of excitability and repetitive firing in a conductance-based neuron model.
 
 ## Conclusion
-module 10 successfully demonstrates periodic action potential generation in the Hodgkin-Huxley model.
+project 10 successfully demonstrates periodic action potential generation in the Hodgkin-Huxley model.
 
 Main outcomes:
 
@@ -86,5 +86,6 @@ Main outcomes:
 3. Sodium and potassium conductance dynamics explain depolarization-repolarization cycles.
 
 These results form a solid baseline for further tests such as current-threshold sweeps, altered channel maxima, or pharmacological conductance block simulations.
+
 
 

@@ -1,9 +1,9 @@
-﻿# Module 09
+﻿# Project 09
 ## Title
 Chaotic Dynamics Analysis of Lorenz and Rossler Systems
 
 ## Executive Summary
-This module investigates nonlinear chaotic dynamics using two classical systems: Lorenz (`lorenz_chaos.m`) and Rossler (`rossler_chaos.m`). For both models, phase portraits and 3D attractors are analyzed, and sensitivity to initial conditions is tested by running two trajectories with nearly identical initial states.
+This project investigates nonlinear chaotic dynamics using two classical systems: Lorenz (`lorenz_chaos.m`) and Rossler (`rossler_chaos.m`). For both models, phase portraits and 3D attractors are analyzed, and sensitivity to initial conditions is tested by running two trajectories with nearly identical initial states.
 
 The Lorenz simulation with `rho = 23.8` exhibits chaotic-like switching between two lobes with visible trajectory divergence. The Rossler simulation with `a = 0.45`, `b = 2`, `c = 4` shows broadband irregular oscillations and strong sensitivity, with additional parameter-sweep panels illustrating qualitative changes near nearby `a` values.
 
@@ -100,7 +100,7 @@ Both systems display hallmark properties of deterministic chaos: bounded attract
 The Lorenz case exhibits lobe-switching behavior with clear divergence between near-identical runs, while the Rossler case emphasizes spiral chaotic motion and pronounced parameter dependence in the local sweep. Together, these outcomes illustrate how simple low-dimensional nonlinear ODEs can generate complex long-term behavior.
 
 ## Conclusion
-module 09 successfully demonstrates chaotic dynamics in two classical models.
+project 09 successfully demonstrates chaotic dynamics in two classical models.
 
 Main outcomes:
 
@@ -109,5 +109,6 @@ Main outcomes:
 3. Nearby parameter values (Rossler `a` sweep) produce visible qualitative changes in phase geometry.
 
 These results provide a strong basis for further analyses such as Lyapunov estimation, bifurcation tracking, and control/synchronization studies in nonlinear dynamical systems.
+
 
 

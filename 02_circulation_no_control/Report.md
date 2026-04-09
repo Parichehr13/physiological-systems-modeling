@@ -1,4 +1,4 @@
-﻿# Module 02
+﻿# Project 02
 
 ## Title
 Simulation of Systemic Circulation Without Control During Hemorrhage
@@ -84,7 +84,7 @@ A key point is that the system does not recover to baseline after hemorrhage sto
 Overall, the simulation clearly captures the direct hemodynamic consequences of sustained blood loss and provides a useful baseline for later comparison with controlled or feedback-enabled models.
 
 ## Conclusion
-The module 02 simulation successfully demonstrates the effects of a 400 ml hemorrhage on an uncontrolled systemic circulation model.
+The project 02 simulation successfully demonstrates the effects of a 400 ml hemorrhage on an uncontrolled systemic circulation model.
 
 Main outcomes:
 
@@ -93,6 +93,7 @@ Main outcomes:
 3. After hemorrhage ends, the system stabilizes at a lower operating point rather than returning to baseline.
 
 These results are coherent with first-principles cardiovascular dynamics and support the validity of the implemented model for this scenario.
+
 
 
 

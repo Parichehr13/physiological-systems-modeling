@@ -107,3 +107,4 @@ plot(t,XX(3,:),'b','linewidth',Width)
 ll= legend('Euler','Eigenvectors','Exponential','Location','southeast');
 set(ll,'fontsize',12)
 
+

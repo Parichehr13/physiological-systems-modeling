@@ -1,4 +1,4 @@
-﻿# Module 03
+﻿# Project 03
 
 ## Title
 Systemic Circulation Model: Numerical and Analytical Solution Consistency
@@ -21,7 +21,7 @@ Flow and dynamics are:
 - `dPra/dt = ((Psv - Pra)/Rsv - q)/Cra`
 - `V = Csa*Psa + Csv*Psv + Cra*Pra`
 
-For this module, `Ii = 0` over the full simulation.
+For this project, `Ii = 0` over the full simulation.
 
 ## Parameters and Initial Conditions
 From `circulation_methods_comparison.m`:
@@ -82,14 +82,14 @@ Since `q = Kr*Pra`, cardiac output increases from about 83.3 mL/s to approximate
 Total filling volume remains essentially constant at about 1279 mL, as expected when no external inflow/outflow perturbation is applied (`Ii = 0`). Minor fluctuations are numerical-scale and negligible.
 
 ## Discussion
-This module is mainly a consistency and validation test. The system starts away from equilibrium because arterial pressure is set to 150 mmHg, and then relaxes to a new steady state dictated by model parameters and mass-balance relations.
+This project is mainly a consistency and validation test. The system starts away from equilibrium because arterial pressure is set to 150 mmHg, and then relaxes to a new steady state dictated by model parameters and mass-balance relations.
 
 The key result is the close overlap among Euler, eigenvector, and matrix exponential solutions. That agreement indicates that the state-space formulation is correct and that the Euler implementation with `DT = 0.1 s` is sufficiently accurate for this linear model.
 
 Another important observation is volume conservation. With zero perturbation input, the total filling volume stays constant while pressures and flow redistribute dynamically. This is physically coherent and reinforces confidence in the model equations.
 
 ## Conclusion
-module 03 confirms both the dynamic behavior and the numerical integrity of the systemic circulation model.
+project 03 confirms both the dynamic behavior and the numerical integrity of the systemic circulation model.
 
 Main outcomes:
 
@@ -98,6 +98,7 @@ Main outcomes:
 3. Total filling volume is conserved in the no-perturbation case.
 
 These results provide a solid foundation for subsequent modules involving control inputs or physiological feedback mechanisms.
+
 
 
 

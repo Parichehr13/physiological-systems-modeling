@@ -1,10 +1,10 @@
-﻿# Module 05
+﻿# Project 05
 
 ## Title
 Two-Compartment Solute and Fluid Dynamics During Hemodialysis: Single Session and Repeated Sessions
 
 ## Executive Summary
-This module studies sodium, urea, potassium, fluid volumes, and osmolarity in a two-compartment model (intracellular and extracellular spaces) under dialysis. Two simulation settings are analyzed: a single 4-hour session (`dialysis_single_session.m`) and repeated intermittent sessions over multiple days (`dialysis_repeated_sessions.m`).
+This project studies sodium, urea, potassium, fluid volumes, and osmolarity in a two-compartment model (intracellular and extracellular spaces) under dialysis. Two simulation settings are analyzed: a single 4-hour session (`dialysis_single_session.m`) and repeated intermittent sessions over multiple days (`dialysis_repeated_sessions.m`).
 
 The single-session model shows smooth solute reduction, extracellular volume removal, and osmolarity decrease. The repeated-session model shows expected sawtooth dynamics: concentrations and osmolarity rise between treatments and are reduced during each dialysis window.
 
@@ -94,7 +94,7 @@ A key observation is that urea exhibits the strongest cycle amplitude, which is 
 Overall, the model reproduces the expected direction and temporal shape of dialysis effects across solutes, volumes, and osmolarity.
 
 ## Conclusion
-module 05 successfully demonstrates both acute and repeated dialysis dynamics in a two-compartment framework.
+project 05 successfully demonstrates both acute and repeated dialysis dynamics in a two-compartment framework.
 
 Main outcomes:
 
@@ -103,5 +103,6 @@ Main outcomes:
 3. The model structure consistently links transport, dialysis clearance, ultrafiltration, and osmotic water shifts.
 
 These results provide a strong basis for exploring dialysis prescription changes (session frequency, dialysate concentrations, and ultrafiltration settings) in subsequent analyses.
+
 
 

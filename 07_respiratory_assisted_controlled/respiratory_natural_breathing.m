@@ -161,3 +161,4 @@ Font = 18;
 Alveolar_Vent = (max(VA(round(10/dt):end)) - min(VA(round(10/dt):end)))*60/T
 Vmin = VA  + VD;
 Minute_Vent = (max(Vmin(round(10/dt):end)) - min(Vmin(round(10/dt):end)))*60/T
+

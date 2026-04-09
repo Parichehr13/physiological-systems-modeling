@@ -1,10 +1,10 @@
-﻿# Module 04 Report
+﻿# Project 04 Report
 
 ## Title
 Systemic Circulation With and Without Feedback Control During Hemorrhage
 
 ## Executive Summary
-This module compares two simulations of systemic circulation under hemorrhage: one without control and one with feedback control acting on systemic arterial resistance (`Rsa`) and cardiac factor (`Kr`). During blood loss, both cases show reduced pressures and flow; however, the controlled model significantly improves arterial pressure and cardiac output recovery. As expected, total filling volume remains determined by hemorrhage input and is not restored by this pressure-flow controller.
+This project compares two simulations of systemic circulation under hemorrhage: one without control and one with feedback control acting on systemic arterial resistance (`Rsa`) and cardiac factor (`Kr`). During blood loss, both cases show reduced pressures and flow; however, the controlled model significantly improves arterial pressure and cardiac output recovery. As expected, total filling volume remains determined by hemorrhage input and is not restored by this pressure-flow controller.
 
 ## Model Formulation
 The state variables are:
@@ -108,14 +108,14 @@ Both curves overlap almost perfectly and drop from ~1080 mL to ~680 mL, matching
 `Kr` increases strongly from `Kr0 ~ 38` to about `178-180 mL/(s*mmHg)`, supporting cardiac output recovery despite reduced volume.
 
 ## Discussion
-This module demonstrates the value of feedback in a hemorrhage scenario. Without control, pressures and output collapse toward a low-flow state. With control, the system still reflects blood loss, but the drop in arterial pressure and cardiac output is much less severe.
+This project demonstrates the value of feedback in a hemorrhage scenario. Without control, pressures and output collapse toward a low-flow state. With control, the system still reflects blood loss, but the drop in arterial pressure and cardiac output is much less severe.
 
 The mechanism is clear in the parameter trajectories: `Rsa` increases and `Kr` increases, which together help preserve arterial pressure and flow. At the same time, total filling volume remains unchanged between cases because the controller redistributes hemodynamics but does not inject volume.
 
 Overall, the controlled model reproduces an intuitive compensatory response: maintain pressure and flow as much as possible under reduced circulating volume.
 
 ## Conclusion
-module 04 confirms that the added controller improves hemodynamic stability during hemorrhage.
+project 04 confirms that the added controller improves hemodynamic stability during hemorrhage.
 
 Main outcomes:
 
@@ -124,6 +124,7 @@ Main outcomes:
 3. Filling volume trajectory is unchanged by control and follows hemorrhage input exactly.
 
 The results provide a strong controlled-vs-uncontrolled baseline for subsequent cardiovascular regulation analyses.
+
 
 
 

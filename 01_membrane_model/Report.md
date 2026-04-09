@@ -1,4 +1,4 @@
-﻿# Module 01
+﻿# Project 01
 
 ## Title
 First-Order Electrophysiological Membrane Model: Analytical and Numerical Simulation
@@ -11,7 +11,7 @@ The membrane dynamics are modeled as:
 
 `dV/dt = (-V + E0 + r*i(t)) / tau`
 
-with the following parameters (from the provided script and module assets):
+with the following parameters (from the provided script and project assets):
 
 - Resting potential: `E0 = -65 mV`
 - Membrane resistance: `r = 10 MOhm`
@@ -66,6 +66,7 @@ The provided simulations successfully characterize a first-order membrane model 
 2. Low-pass, attenuated, and phase-delayed voltage oscillations under sinusoidal forcing.
 
 Overall, the results are internally consistent and aligned with expected first-order electrophysiological dynamics.
+
 
 
 

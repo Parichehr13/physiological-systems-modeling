@@ -69,3 +69,4 @@ title('red: sodium; green:potassium','fontsize',Font)
 xlabel('time (ms)','fontsize',Font)
 set(gca,'fontsize',Font)
 ylabel('conductances','fontsize',Font)
+

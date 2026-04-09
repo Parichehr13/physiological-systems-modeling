@@ -134,3 +134,4 @@ Minute_Vent = (max(Vmin(round(10/dt):end)) - min(Vmin(round(10/dt):end)))*60/T;
 disp(Alveolar_Vent)
 disp(Minute_Vent)
 
+

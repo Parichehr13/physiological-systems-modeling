@@ -1,10 +1,10 @@
-﻿# Module 07 
+﻿# Project 07 
 
 ## Title
 Respiratory Mechanics With Natural Breathing and Assisted Flow-Tracking Control
 
 ## Executive Summary
-This module compares two simulations of the same lumped respiratory mechanics model. The first case (`respiratory_natural_breathing.m`) represents natural breathing with a non-sinusoidal muscle pressure waveform and zero mouth pressure forcing. The second case (`respiratory_controlled_breathing.m`) adds a control law that modulates mouth pressure to track a target ventilation waveform.
+This project compares two simulations of the same lumped respiratory mechanics model. The first case (`respiratory_natural_breathing.m`) represents natural breathing with a non-sinusoidal muscle pressure waveform and zero mouth pressure forcing. The second case (`respiratory_controlled_breathing.m`) adds a control law that modulates mouth pressure to track a target ventilation waveform.
 
 Both simulations produce stable periodic respiration. The controlled case shows improved flow tracking and larger alveolar pressure swings driven by the actuator, while volume oscillations remain physiologically coherent.
 
@@ -94,14 +94,14 @@ Compared with the natural case, alveolar pressure oscillations are larger, refle
 Volume trajectories remain periodic and stable. Alveolar and total volume oscillations are comparable in magnitude to the natural case, with shape changes consistent with controller action.
 
 ## Discussion
-module 07 shows how the same mechanical lung model behaves under two different drive strategies. Natural breathing produces a physiologically shaped, self-driven flow profile. Adding control at the mouth pressure level allows explicit tracking of a desired ventilation pattern.
+project 07 shows how the same mechanical lung model behaves under two different drive strategies. Natural breathing produces a physiologically shaped, self-driven flow profile. Adding control at the mouth pressure level allows explicit tracking of a desired ventilation pattern.
 
 The tracking plot confirms that the closed-loop term `kcontrol*(dVref - dV)` effectively reduces error after startup. At the same time, the model preserves coherent pressure-volume relationships, which suggests that the controller is strong enough to shape flow but not so aggressive that it destabilizes the mechanical dynamics.
 
 Overall, the results are consistent with assisted ventilation intuition: controlled airway pressure can support/steer ventilation while intrinsic muscle dynamics remain present.
 
 ## Conclusion
-module 07 successfully compares spontaneous and assisted respiratory dynamics in the same compartmental model.
+project 07 successfully compares spontaneous and assisted respiratory dynamics in the same compartmental model.
 
 Main outcomes:
 
@@ -110,5 +110,6 @@ Main outcomes:
 3. Both simulations remain dynamically stable and physiologically interpretable.
 
 This provides a useful base for future controller tuning studies (for example varying `kcontrol`, `tauv`, phase shift, or target ventilation profiles).
+
 
 

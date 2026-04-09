@@ -1,10 +1,10 @@
-﻿# Module 06
+﻿# Project 06
 
 ## Title
 Lumped-Parameter Respiratory Mechanics Simulation Under Spontaneous Breathing
 
 ## Executive Summary
-This module simulates respiratory system dynamics using a multi-compartment lumped model driven by periodic muscle pressure. The model reproduces realistic cyclic behavior of pleural and alveolar pressures, ventilation flow, and lung volumes over a 20-second interval. Results show stable periodic breathing with a 5-second cycle and coherent coupling between pressure generation, airflow, and compartment volumes.
+This project simulates respiratory system dynamics using a multi-compartment lumped model driven by periodic muscle pressure. The model reproduces realistic cyclic behavior of pleural and alveolar pressures, ventilation flow, and lung volumes over a 20-second interval. Results show stable periodic breathing with a 5-second cycle and coherent coupling between pressure generation, airflow, and compartment volumes.
 
 ## Model Description
 The script defines a compartmental respiratory network with compliances and resistances:
@@ -82,10 +82,10 @@ The simulation behavior is internally consistent for a forced periodic breathing
 
 The model also captures a realistic hierarchy of amplitudes: alveolar and total volume changes are larger than dead-space oscillations, while alveolar pressure remains comparatively small around atmospheric reference. This matches the expected mechanical buffering effect of respiratory compliance.
 
-Overall, module 06 provides a coherent dynamic representation of spontaneous ventilation mechanics and yields plausible ventilation magnitudes for the chosen parameter set.
+Overall, project 06 provides a coherent dynamic representation of spontaneous ventilation mechanics and yields plausible ventilation magnitudes for the chosen parameter set.
 
 ## Conclusion
-module 06 successfully reproduces periodic respiratory mechanics in a compartmental lung-chest model.
+project 06 successfully reproduces periodic respiratory mechanics in a compartmental lung-chest model.
 
 Main outcomes:
 
@@ -94,5 +94,6 @@ Main outcomes:
 3. Reasonable estimated alveolar and minute ventilation values from simulated volume excursions.
 
 The model is suitable as a baseline for future investigations involving altered resistance, compliance, or respiratory muscle drive.
+
 
 

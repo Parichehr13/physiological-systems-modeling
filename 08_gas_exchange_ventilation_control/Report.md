@@ -1,10 +1,10 @@
-﻿# Module 08
+﻿# Project 08
 
 ## Title
 Integrated CO2/O2 Gas Exchange and Ventilatory Control: Baseline and Chemoreflex-Active Simulations
 
 ## Executive Summary
-module 08 contains two related simulations. Part I (`gas_exchange_part1_co2.m`) models CO2 dynamics with ventilation decomposition but with control gains set to zero. Part II (`gas_exchange_part2_co2_o2_control.m`) extends the model to include O2 dynamics and active chemoreflex gains for both central and peripheral components.
+project 08 contains two related simulations. Part I (`gas_exchange_part1_co2.m`) models CO2 dynamics with ventilation decomposition but with control gains set to zero. Part II (`gas_exchange_part2_co2_o2_control.m`) extends the model to include O2 dynamics and active chemoreflex gains for both central and peripheral components.
 
 Part I converges to a constant-ventilation state with CO2 rising to a new equilibrium. Part II shows coupled CO2/O2 regulation with increased total ventilation and a nonzero split between peripheral and central drive contributions.
 
@@ -90,7 +90,7 @@ The large increase in total ventilation in Part II is consistent with positive c
 Overall, the simulations are coherent and useful for understanding how transport dynamics and control gains jointly shape blood-gas regulation.
 
 ## Conclusion
-module 08 successfully demonstrates baseline and feedback-regulated gas exchange behavior.
+project 08 successfully demonstrates baseline and feedback-regulated gas exchange behavior.
 
 Main outcomes:
 
@@ -99,5 +99,6 @@ Main outcomes:
 3. Peripheral and central components contribute differently over time, with central drive dominating steady state.
 
 These results provide a strong foundation for gain tuning and sensitivity analyses in ventilatory control modeling.
+
 
 
