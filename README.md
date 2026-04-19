@@ -58,7 +58,7 @@ biological-system-modeling/
 
 Open any project folder in MATLAB and run the main `.m` script. Most folders also contain:
 
-- `Report.md` with a short explanation of the model and results
+- `README.md` with a short explanation of the model and results
 - `figures/` with exported plots generated from the simulations
 
 ## Notes
