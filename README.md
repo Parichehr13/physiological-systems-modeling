@@ -1,73 +1,49 @@
 # Biological System Modeling
 
-MATLAB-based simulations of physiological and dynamical systems, covering membrane models, circulation, respiratory mechanics, gas exchange, hemodialysis, nonlinear dynamics, and the Hodgkin–Huxley neuron model.
+MATLAB-based projects in biomedical system modeling, computational physiology, and nonlinear dynamics.
 
 ## Overview
 
-This repository is a collection of **10 MATLAB modeling projects** in biomedical engineering and computational physiology.  
-Each folder focuses on a different biological or dynamical system and usually includes:
+This repository presents a collection of modeling projects developed in MATLAB across core topics in biomedical engineering. The work covers membrane dynamics, cardiovascular and respiratory systems, gas exchange, hemodialysis, nonlinear dynamics, and neuronal modeling.
 
-- a MATLAB script for simulation
-- a short report or notes about the model
-- **at least one figure showing the main result of that project**
+The repository reflects a strong interest in combining **mathematical modeling**, **physiological systems**, and **computational analysis** to study biological processes in a structured and quantitative way.
 
-Rather than being a single software package, this repository is better understood as a **set of independent modeling studies**.
+## Scope
 
-## Project Map
+The projects in this repository span several areas of biomedical engineering and computational modeling, including:
 
-| Folder | Topic | Main Focus | Figure Included |
-|---|---|---|---|
-| `01_membrane_model` | First-order membrane model | Analytical and numerical simulation of membrane voltage | Membrane response plot |
-| `02_circulation_no_control` | Circulation without control | Hemorrhage response in systemic circulation | Pressure/flow response figure |
-| `03_circulation_methods_comparison` | Numerical methods comparison | Euler, eigenvalue, and matrix-exponential solutions | Method comparison plot |
-| `04_circulation_feedback_control` | Circulation with feedback control | Pressure and flow recovery during hemorrhage | Feedback-control response figure |
-| `05_hemodialysis_dynamics` | Hemodialysis dynamics | Solute, volume, and osmolarity changes over time | Dialysis dynamics plot |
-| `06_respiratory_spontaneous_breathing` | Respiratory mechanics | Spontaneous breathing dynamics | Breathing waveform figure |
-| `07_respiratory_assisted_controlled` | Ventilation modeling | Assisted and controlled ventilation behavior | Ventilation response plot |
-| `08_gas_exchange_ventilation_control` | Gas exchange and ventilatory control | CO2/O2 regulation with feedback | Gas exchange figure |
-| `09_nonlinear_dynamics_chaos` | Nonlinear dynamics and chaos | Lorenz and Rössler attractors and sensitivity to initial conditions | Attractor / phase-space plot |
-| `10_hodgkin_huxley_neuron` | Hodgkin–Huxley neuron model | Repetitive spiking and ionic conductance dynamics | Membrane potential / conductance figure |
+- membrane and bioelectric modeling
+- cardiovascular dynamics
+- respiratory mechanics and ventilation
+- gas exchange and physiological control
+- hemodialysis modeling
+- nonlinear dynamical systems
+- computational neuroscience
 
-## What This Repository Covers
+## Projects
 
-The projects in this repository span several connected themes:
+| Folder | Topic | Description |
+|---|---|---|
+| `01_membrane_model` | Membrane model | First-order membrane modeling and simulation of membrane voltage behavior |
+| `02_circulation_no_control` | Circulatory system | Modeling systemic circulation under hemorrhage conditions without control mechanisms |
+| `03_circulation_methods_comparison` | Numerical methods | Comparison of numerical and analytical solution methods for circulation models |
+| `04_circulation_feedback_control` | Feedback control | Circulatory modeling with physiological feedback mechanisms |
+| `05_hemodialysis_dynamics` | Hemodialysis | Dynamic modeling of solute, osmolarity, and fluid-volume changes during hemodialysis |
+| `06_respiratory_spontaneous_breathing` | Respiratory mechanics | Simulation of spontaneous breathing dynamics |
+| `07_respiratory_assisted_controlled` | Ventilation modeling | Modeling assisted and controlled mechanical ventilation |
+| `08_gas_exchange_ventilation_control` | Gas exchange | Physiological modeling of gas exchange and ventilatory control |
+| `09_nonlinear_dynamics_chaos` | Nonlinear systems | Exploration of chaos and sensitivity to initial conditions in classical dynamical systems |
+| `10_hodgkin_huxley_neuron` | Neuron model | Hodgkin–Huxley modeling of neuronal membrane potential and ionic conductances |
 
-- **Bioelectric and membrane modeling**
-- **Cardiovascular system dynamics**
-- **Respiratory mechanics and ventilation**
-- **Gas exchange and feedback regulation**
-- **Hemodialysis modeling**
-- **Nonlinear dynamics and chaos**
-- **Computational neuroscience**
+## Academic Focus
 
-Together, these projects show a broad foundation in **physiological modeling, numerical simulation, control systems, and dynamical systems** using MATLAB.
+This repository highlights experience in:
 
-## Figures Across the Repository
-
-A figure is included in each project folder to illustrate the central behavior of the model being studied.  
-These figures are not just decorations — they are part of the project outputs and help the reader quickly understand what each simulation demonstrates.
-
-Examples include:
-
-- membrane voltage responses
-- circulation pressure and flow changes
-- numerical-method comparisons
-- ventilation and breathing curves
-- gas exchange dynamics
-- chaotic attractors
-- neuron membrane potential and conductance behavior
-
-Because each folder already contains its own relevant figure, this README uses the project map above to show **which kind of figure belongs to each project**, instead of only displaying three selected images from the whole repository.
-
-## Why This Repository Is Useful
-
-This repository can be useful for:
-
-- students learning biomedical system modeling
-- coursework in biomedical engineering or physiological control systems
-- MATLAB-based numerical simulation practice
-- quick reference examples for dynamical-system implementation
-- building intuition about how mathematical models describe biological processes
+- MATLAB-based simulation and numerical analysis
+- differential-equation-based modeling
+- physiological and biomedical system modeling
+- feedback and control in biological systems
+- computational analysis of neural and physiological dynamics
 
 ## Repository Structure
 
@@ -86,27 +62,9 @@ biological-system-modeling/
 └── README.md
 ```
 
-## How to Use
-
-1. Open any project folder in MATLAB.
-2. Run the main `.m` script.
-3. Read the local notes or report if included.
-4. Review the figure in that folder to interpret the main result.
-
-## Recommended Entry Points
-
-If you are visiting this repository for the first time, these are good places to start:
-
-- **`10_hodgkin_huxley_neuron`** for computational neuroscience
-- **`09_nonlinear_dynamics_chaos`** for dynamical systems and attractors
-- **`08_gas_exchange_ventilation_control`** for physiological feedback modeling
-- **`03_circulation_methods_comparison`** for numerical-method comparison
-
 ## Notes
 
-- Each folder is designed to be explored **independently**.
-- The repository emphasizes **model understanding and simulation results** more than software packaging.
-- The included figures are an important part of the documentation for each project.
+Each folder contains project-specific materials, which may include MATLAB scripts, figures, reports, or brief project notes.
 
 ---
 
