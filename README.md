@@ -95,22 +95,6 @@ If you are visiting this repository for the first time, these are good places to
 - The repository emphasizes **model understanding and simulation results** more than software packaging.
 - Some projects may be more physiology-focused, while others emphasize numerical analysis or dynamical behavior.
 
-## Suggested Future Improvements
-
-To make the repository even stronger, consider adding:
-
-- a short README inside **every** project folder
-- a consistent folder structure across all projects
-- one preview figure for each project
-- a small section listing required MATLAB toolboxes, if any
-- a license file
-- tags/topics in the GitHub About section
-
-## License
-
-No license file is currently included.  
-If you want others to reuse the code clearly and safely, adding a license would improve the repository.
-
 ---
 
 If you use this repository as a portfolio project, it may also help to add a short sentence about its academic context, such as coursework, self-study, or a biomedical engineering modeling class.
