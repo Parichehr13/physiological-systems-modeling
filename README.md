@@ -1,32 +1,32 @@
 # Biological System Modeling
 
-MATLAB-based simulations of physiological and dynamical systems, including membrane models, systemic circulation, respiratory mechanics, gas exchange, hemodialysis, nonlinear dynamics, and the Hodgkin–Huxley neuron model.
+MATLAB-based simulations of physiological and dynamical systems, covering membrane models, circulation, respiratory mechanics, gas exchange, hemodialysis, nonlinear dynamics, and the Hodgkin–Huxley neuron model.
 
 ## Overview
 
-This repository collects **10 independent modeling projects** focused on mathematical and computational analysis of biological systems.  
-Each project is organized around a specific physiological or dynamical model and typically includes:
+This repository is a collection of **10 MATLAB modeling projects** in biomedical engineering and computational physiology.  
+Each folder focuses on a different biological or dynamical system and usually includes:
 
-- a MATLAB simulation script
-- a short report or project note
-- exported figures for interpreting the results
+- a MATLAB script for simulation
+- a short report or notes about the model
+- **at least one figure showing the main result of that project**
 
-The repository is best understood as a **collection of modeling studies**, not as a single software package.
+Rather than being a single software package, this repository is better understood as a **set of independent modeling studies**.
 
 ## Project Map
 
-| Project | Topic | Main Focus |
-|---|---|---|
-| `01_membrane_model` | First-order membrane model | Analytical and numerical simulation of membrane voltage |
-| `02_circulation_no_control` | Systemic circulation without control | Hemorrhage response in a circulation model |
-| `03_circulation_methods_comparison` | Numerical methods comparison | Euler, eigenvalue, and matrix-exponential solutions |
-| `04_circulation_feedback_control` | Circulation with feedback control | Pressure and flow recovery during hemorrhage |
-| `05_hemodialysis_dynamics` | Hemodialysis dynamics | Solute, osmolarity, and fluid-volume changes over time |
-| `06_respiratory_spontaneous_breathing` | Respiratory mechanics | Spontaneous breathing dynamics |
-| `07_respiratory_assisted_controlled` | Ventilation modeling | Assisted and controlled ventilation behavior |
-| `08_gas_exchange_ventilation_control` | Gas exchange and ventilatory control | CO2/O2 regulation with feedback |
-| `09_nonlinear_dynamics_chaos` | Nonlinear dynamics and chaos | Lorenz and Rössler attractors and sensitivity to initial conditions |
-| `10_hodgkin_huxley_neuron` | Hodgkin–Huxley neuron model | Repetitive spiking and ionic conductance dynamics |
+| Folder | Topic | Main Focus | Figure Included |
+|---|---|---|---|
+| `01_membrane_model` | First-order membrane model | Analytical and numerical simulation of membrane voltage | Membrane response plot |
+| `02_circulation_no_control` | Circulation without control | Hemorrhage response in systemic circulation | Pressure/flow response figure |
+| `03_circulation_methods_comparison` | Numerical methods comparison | Euler, eigenvalue, and matrix-exponential solutions | Method comparison plot |
+| `04_circulation_feedback_control` | Circulation with feedback control | Pressure and flow recovery during hemorrhage | Feedback-control response figure |
+| `05_hemodialysis_dynamics` | Hemodialysis dynamics | Solute, volume, and osmolarity changes over time | Dialysis dynamics plot |
+| `06_respiratory_spontaneous_breathing` | Respiratory mechanics | Spontaneous breathing dynamics | Breathing waveform figure |
+| `07_respiratory_assisted_controlled` | Ventilation modeling | Assisted and controlled ventilation behavior | Ventilation response plot |
+| `08_gas_exchange_ventilation_control` | Gas exchange and ventilatory control | CO2/O2 regulation with feedback | Gas exchange figure |
+| `09_nonlinear_dynamics_chaos` | Nonlinear dynamics and chaos | Lorenz and Rössler attractors and sensitivity to initial conditions | Attractor / phase-space plot |
+| `10_hodgkin_huxley_neuron` | Hodgkin–Huxley neuron model | Repetitive spiking and ionic conductance dynamics | Membrane potential / conductance figure |
 
 ## What This Repository Covers
 
@@ -40,7 +40,24 @@ The projects in this repository span several connected themes:
 - **Nonlinear dynamics and chaos**
 - **Computational neuroscience**
 
-This breadth is one of the repository’s strengths: it shows not only coding work in MATLAB, but also a solid foundation in **physiological modeling, control systems, and applied dynamical systems**.
+Together, these projects show a broad foundation in **physiological modeling, numerical simulation, control systems, and dynamical systems** using MATLAB.
+
+## Figures Across the Repository
+
+A figure is included in each project folder to illustrate the central behavior of the model being studied.  
+These figures are not just decorations — they are part of the project outputs and help the reader quickly understand what each simulation demonstrates.
+
+Examples include:
+
+- membrane voltage responses
+- circulation pressure and flow changes
+- numerical-method comparisons
+- ventilation and breathing curves
+- gas exchange dynamics
+- chaotic attractors
+- neuron membrane potential and conductance behavior
+
+Because each folder already contains its own relevant figure, this README uses the project map above to show **which kind of figure belongs to each project**, instead of only displaying three selected images from the whole repository.
 
 ## Why This Repository Is Useful
 
@@ -73,12 +90,8 @@ biological-system-modeling/
 
 1. Open any project folder in MATLAB.
 2. Run the main `.m` script.
-3. Review the corresponding figures and notes to interpret the model behavior.
-
-Many folders also include:
-
-- `README.md` with a short explanation of the model
-- `figures/` containing exported plots from the simulations
+3. Read the local notes or report if included.
+4. Review the figure in that folder to interpret the main result.
 
 ## Recommended Entry Points
 
@@ -91,9 +104,9 @@ If you are visiting this repository for the first time, these are good places to
 
 ## Notes
 
-- The projects are organized as **independent studies**, so each folder can be explored on its own.
+- Each folder is designed to be explored **independently**.
 - The repository emphasizes **model understanding and simulation results** more than software packaging.
-- Some projects may be more physiology-focused, while others emphasize numerical analysis or dynamical behavior.
+- The included figures are an important part of the documentation for each project.
 
 ---
 
