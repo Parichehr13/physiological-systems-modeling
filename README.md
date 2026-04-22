@@ -29,6 +29,8 @@ This project combines three related respiratory modules into one coherent study:
 - `spontaneous_breathing/`: baseline respiratory mechanics with muscle-driven ventilation
 - `assisted_ventilation/`: natural and controlled ventilation using the same mechanics model
 - `gas_exchange_control/`: CO2/O2 gas exchange and ventilatory regulation
+- `shared/`: reusable respiratory mechanics and gas-exchange helpers
+- `verify_respiratory_project.m`: lightweight execution and sanity checks
 
 The hemodialysis project in `05_hemodialysis_dynamics` remains separate because it belongs to a different physiological story centered on solute transport, ultrafiltration, and osmotic balance rather than respiratory mechanics and gas exchange.
 
@@ -53,7 +55,7 @@ This repository highlights experience in:
 
 1. Open MATLAB.
 2. Navigate to a project folder, for example `respiratory_mechanics_gas_exchange/assisted_ventilation`.
-3. Run one of the main scripts in that folder, for example `respiratory_controlled_breathing`.
+3. Run one of the scenario functions in that folder, for example `run_controlled_breathing`.
 4. Review the generated plots and the local `README.md`.
 
 ## Notes
