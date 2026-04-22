@@ -1,4 +1,8 @@
+<<<<<<<< HEAD:07_respiratory_assisted_controlled/respiratory_controlled_breathing.m
 ﻿ clear all
+========
+ clear all
+>>>>>>>> 7c2f5a5 (Merge respiratory modules into a single project):respiratory_mechanics_gas_exchange/assisted_ventilation/Exercise7_II.m
 close all
 clc
 
@@ -138,5 +142,9 @@ Font = 18;
     
  
     
+<<<<<<<< HEAD:07_respiratory_assisted_controlled/respiratory_controlled_breathing.m
 Vent = (max(VA(round(10/dt):end)) - min(VA(round(10/dt):end)))*60/T
 
+========
+Vent = (max(VA(round(10/dt):end)) - min(VA(round(10/dt):end)))*60/T
+>>>>>>>> 7c2f5a5 (Merge respiratory modules into a single project):respiratory_mechanics_gas_exchange/assisted_ventilation/Exercise7_II.m

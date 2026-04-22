@@ -4,23 +4,14 @@ MATLAB-based projects in biomedical system modeling, computational physiology, a
 
 ## Overview
 
-This repository presents a collection of modeling projects developed in MATLAB across core topics in biomedical engineering. The work covers membrane dynamics, cardiovascular and respiratory systems, gas exchange, hemodialysis, nonlinear dynamics, and neuronal modeling.
+This repository presents a collection of compact modeling projects developed in MATLAB across core topics in biomedical engineering. The work covers membrane dynamics, cardiovascular and respiratory systems, gas exchange, hemodialysis, nonlinear dynamics, and neuronal modeling.
 
-The repository reflects a strong interest in combining **mathematical modeling**, **physiological systems**, and **computational analysis** to study biological processes in a structured and quantitative way.
+Most project folders include:
+- MATLAB implementation files (`.m`)
+- a project README or concise technical report
+- a `figures/` directory with saved plots
 
-## Scope
-
-The projects in this repository span several areas of biomedical engineering and computational modeling, including:
-
-- membrane and bioelectric modeling
-- cardiovascular dynamics
-- respiratory mechanics and ventilation
-- gas exchange and physiological control
-- hemodialysis modeling
-- nonlinear dynamical systems
-- computational neuroscience
-
-## Projects
+## Repository Layout
 
 | Folder | Topic | Description |
 |---|---|---|
@@ -29,43 +20,38 @@ The projects in this repository span several areas of biomedical engineering and
 | `03_circulation_methods_comparison` | Numerical methods | Comparison of numerical and analytical solution methods for circulation models |
 | `04_circulation_feedback_control` | Feedback control | Circulatory modeling with physiological feedback mechanisms |
 | `05_hemodialysis_dynamics` | Hemodialysis | Dynamic modeling of solute, osmolarity, and fluid-volume changes during hemodialysis |
-| `06_respiratory_spontaneous_breathing` | Respiratory mechanics | Simulation of spontaneous breathing dynamics |
-| `07_respiratory_assisted_controlled` | Ventilation modeling | Modeling assisted and controlled mechanical ventilation |
-| `08_gas_exchange_ventilation_control` | Gas exchange | Physiological modeling of gas exchange and ventilatory control |
+| `respiratory_mechanics_gas_exchange` | Respiratory systems | Merged project covering spontaneous breathing, assisted ventilation, and gas-exchange control |
 | `09_nonlinear_dynamics_chaos` | Nonlinear systems | Exploration of chaos and sensitivity to initial conditions in classical dynamical systems |
-| `10_hodgkin_huxley_neuron` | Neuron model | Hodgkin–Huxley modeling of neuronal membrane potential and ionic conductances |
+| `10_hodgkin_huxley_neuron` | Neuron model | Hodgkin-Huxley modeling of neuronal membrane potential and ionic conductances |
+
+## Featured Merged Project
+
+### `respiratory_mechanics_gas_exchange`
+This project combines three related respiratory modules into one coherent study:
+- `spontaneous_breathing/`: baseline respiratory mechanics with muscle-driven ventilation
+- `assisted_ventilation/`: natural and controlled ventilation using the same mechanics model
+- `gas_exchange_control/`: CO2/O2 gas exchange and ventilatory regulation
+
+The hemodialysis project in `05_hemodialysis_dynamics` remains separate because it belongs to a different physiological story centered on solute transport, ultrafiltration, and osmotic balance rather than respiratory mechanics and gas exchange.
 
 ## Academic Focus
 
 This repository highlights experience in:
-
 - MATLAB-based simulation and numerical analysis
 - differential-equation-based modeling
 - physiological and biomedical system modeling
 - feedback and control in biological systems
 - computational analysis of neural and physiological dynamics
 
-## Repository Structure
+## Quick Start
 
-```text
-biological-system-modeling/
-├── 01_membrane_model/
-├── 02_circulation_no_control/
-├── 03_circulation_methods_comparison/
-├── 04_circulation_feedback_control/
-├── 05_hemodialysis_dynamics/
-├── 06_respiratory_spontaneous_breathing/
-├── 07_respiratory_assisted_controlled/
-├── 08_gas_exchange_ventilation_control/
-├── 09_nonlinear_dynamics_chaos/
-├── 10_hodgkin_huxley_neuron/
-└── README.md
-```
+1. Open MATLAB.
+2. Navigate to a project folder, for example `respiratory_mechanics_gas_exchange/assisted_ventilation`.
+3. Run one of the main scripts in that folder, for example `respiratory_controlled_breathing`.
+4. Review the generated plots and the local `README.md`.
 
 ## Notes
 
-Each folder contains project-specific materials, which may include MATLAB scripts, figures, reports, or brief project notes.
-
----
-
-If you use this repository as a portfolio project, it may also help to add a short sentence about its academic context, such as coursework, self-study, or a biomedical engineering modeling class.
+- No external toolbox is required for the provided scripts.
+- The circulation modules are still separate at the repository root and can be consolidated in a later cleanup step.
+- Parameter values are intentionally easy to modify for sensitivity testing.

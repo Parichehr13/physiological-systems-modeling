@@ -1,4 +1,8 @@
+<<<<<<<< HEAD:08_gas_exchange_ventilation_control/gas_exchange_part2_co2_o2_control.m
 ﻿clear all
+========
+clear all
+>>>>>>>> 7c2f5a5 (Merge respiratory modules into a single project):respiratory_mechanics_gas_exchange/gas_exchange_control/Exercise8_II_vent.m
 close all
 clc
 Vlung = 2.5;
@@ -107,5 +111,9 @@ set(gca,'fontsize',18)
 
 
     
+<<<<<<<< HEAD:08_gas_exchange_ventilation_control/gas_exchange_part2_co2_o2_control.m
     
 
+========
+    
+>>>>>>>> 7c2f5a5 (Merge respiratory modules into a single project):respiratory_mechanics_gas_exchange/gas_exchange_control/Exercise8_II_vent.m

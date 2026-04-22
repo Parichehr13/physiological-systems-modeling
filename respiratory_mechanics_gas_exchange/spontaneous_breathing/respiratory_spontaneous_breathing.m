@@ -1,4 +1,8 @@
+<<<<<<<< HEAD:06_respiratory_spontaneous_breathing/respiratory_spontaneous_breathing.m
 ﻿
+========
+
+>>>>>>>> 7c2f5a5 (Merge respiratory modules into a single project):respiratory_mechanics_gas_exchange/spontaneous_breathing/Exercise6.m
 clear
 close all
 clc
@@ -133,5 +137,8 @@ Vmin = VA  + VD;
 Minute_Vent = (max(Vmin(round(10/dt):end)) - min(Vmin(round(10/dt):end)))*60/T;
 disp(Alveolar_Vent)
 disp(Minute_Vent)
+<<<<<<<< HEAD:06_respiratory_spontaneous_breathing/respiratory_spontaneous_breathing.m
 
 
+========
+>>>>>>>> 7c2f5a5 (Merge respiratory modules into a single project):respiratory_mechanics_gas_exchange/spontaneous_breathing/Exercise6.m
