@@ -1,4 +1,4 @@
-﻿# Project 10
+# Hodgkin-Huxley Neuron
 
 ## Title
 Hodgkin-Huxley Membrane Dynamics Under Constant Current Stimulation
@@ -74,10 +74,10 @@ The simulation reproduces the hallmark Hodgkin-Huxley firing cycle under tonic s
 
 The repeated spike train indicates that `I = 15` is above the threshold for sustained firing in this parameter setup. The conductance traces confirm the expected sodium-leading/potassium-lagging interaction that stabilizes periodic oscillations in membrane voltage.
 
-Overall, project 10 provides a strong numerical demonstration of excitability and repetitive firing in a conductance-based neuron model.
+Overall, this module provides a strong numerical demonstration of excitability and repetitive firing in a conductance-based neuron model.
 
 ## Conclusion
-project 10 successfully demonstrates periodic action potential generation in the Hodgkin-Huxley model.
+This project demonstrates periodic action potential generation in the Hodgkin-Huxley model.
 
 Main outcomes:
 
@@ -86,6 +86,3 @@ Main outcomes:
 3. Sodium and potassium conductance dynamics explain depolarization-repolarization cycles.
 
 These results form a solid baseline for further tests such as current-threshold sweeps, altered channel maxima, or pharmacological conductance block simulations.
-
-
-

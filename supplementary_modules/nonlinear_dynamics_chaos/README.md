@@ -1,4 +1,5 @@
-﻿# Project 09
+# Nonlinear Dynamics and Chaos
+
 ## Title
 Chaotic Dynamics Analysis of Lorenz and Rossler Systems
 
@@ -100,7 +101,7 @@ Both systems display hallmark properties of deterministic chaos: bounded attract
 The Lorenz case exhibits lobe-switching behavior with clear divergence between near-identical runs, while the Rossler case emphasizes spiral chaotic motion and pronounced parameter dependence in the local sweep. Together, these outcomes illustrate how simple low-dimensional nonlinear ODEs can generate complex long-term behavior.
 
 ## Conclusion
-project 09 successfully demonstrates chaotic dynamics in two classical models.
+This project demonstrates chaotic dynamics in two classical models.
 
 Main outcomes:
 
@@ -109,6 +110,3 @@ Main outcomes:
 3. Nearby parameter values (Rossler `a` sweep) produce visible qualitative changes in phase geometry.
 
 These results provide a strong basis for further analyses such as Lyapunov estimation, bifurcation tracking, and control/synchronization studies in nonlinear dynamical systems.
-
-
-

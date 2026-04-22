@@ -1,4 +1,4 @@
-﻿# Project 05
+# Hemodialysis Dynamics
 
 ## Title
 Two-Compartment Solute and Fluid Dynamics During Hemodialysis: Single Session and Repeated Sessions
@@ -94,7 +94,7 @@ A key observation is that urea exhibits the strongest cycle amplitude, which is 
 Overall, the model reproduces the expected direction and temporal shape of dialysis effects across solutes, volumes, and osmolarity.
 
 ## Conclusion
-project 05 successfully demonstrates both acute and repeated dialysis dynamics in a two-compartment framework.
+This project demonstrates both acute and repeated dialysis dynamics in a two-compartment framework.
 
 Main outcomes:
 
@@ -103,6 +103,3 @@ Main outcomes:
 3. The model structure consistently links transport, dialysis clearance, ultrafiltration, and osmotic water shifts.
 
 These results provide a strong basis for exploring dialysis prescription changes (session frequency, dialysate concentrations, and ultrafiltration settings) in subsequent analyses.
-
-
-

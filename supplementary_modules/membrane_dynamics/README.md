@@ -1,4 +1,4 @@
-﻿# Project 01
+# Membrane Model
 
 ## Title
 First-Order Electrophysiological Membrane Model: Analytical and Numerical Simulation
@@ -66,7 +66,3 @@ The provided simulations successfully characterize a first-order membrane model 
 2. Low-pass, attenuated, and phase-delayed voltage oscillations under sinusoidal forcing.
 
 Overall, the results are internally consistent and aligned with expected first-order electrophysiological dynamics.
-
-
-
-
