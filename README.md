@@ -1,6 +1,6 @@
 # Biological System Modeling Portfolio
 
-Curated MATLAB portfolio of reduced-order models in physiological dynamics, control, transport, and nonlinear systems.
+Curated MATLAB portfolio focused on reduced-order physiological modeling, feedback control, and nonlinear biological dynamics.
 
 ## Overview
 
@@ -71,6 +71,7 @@ Main entry points:
 ## Supplementary Modules
 
 These modules remain standalone because they represent distinct physiological or dynamical topics rather than direct extensions of the two core project stories.
+They add breadth to the portfolio, but the primary work is represented by the two core projects above.
 
 - [Membrane Dynamics](supplementary_modules/membrane_dynamics/README.md): first-order electrophysiological membrane dynamics under step and sinusoidal forcing
 - [Hemodialysis Dynamics](supplementary_modules/hemodialysis_dynamics/README.md): two-compartment solute, osmolarity, and fluid-volume dynamics during single and repeated dialysis sessions

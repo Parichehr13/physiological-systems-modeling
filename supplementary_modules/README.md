@@ -7,4 +7,4 @@ This folder contains smaller standalone studies that complement the two main por
 - `nonlinear_dynamics_chaos/`
 - `hodgkin_huxley_neuron/`
 
-They remain separate because each represents a distinct modeling topic rather than a direct extension of the circulation or respiratory project narratives.
+They remain separate because each represents a distinct modeling topic rather than a direct extension of the circulation or respiratory project narratives. They are best read after the core projects.
