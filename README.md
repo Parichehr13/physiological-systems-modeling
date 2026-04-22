@@ -1,4 +1,4 @@
-# Biological System Modeling Portfolio
+# Physiological Systems Modeling Portfolio
 
 Curated MATLAB portfolio focused on reduced-order physiological modeling, feedback control, and nonlinear biological dynamics.
 
