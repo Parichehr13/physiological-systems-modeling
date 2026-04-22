@@ -16,9 +16,7 @@ Most project folders include:
 | Folder | Topic | Description |
 |---|---|---|
 | `01_membrane_model` | Membrane model | First-order membrane modeling and simulation of membrane voltage behavior |
-| `02_circulation_no_control` | Circulatory system | Modeling systemic circulation under hemorrhage conditions without control mechanisms |
-| `03_circulation_methods_comparison` | Numerical methods | Comparison of numerical and analytical solution methods for circulation models |
-| `04_circulation_feedback_control` | Feedback control | Circulatory modeling with physiological feedback mechanisms |
+| `circulation_dynamics_control` | Circulatory system | Merged project covering baseline hemorrhage, methods validation, and feedback control in systemic circulation |
 | `05_hemodialysis_dynamics` | Hemodialysis | Dynamic modeling of solute, osmolarity, and fluid-volume changes during hemodialysis |
 | `respiratory_mechanics_gas_exchange` | Respiratory systems | Merged project covering spontaneous breathing, assisted ventilation, and gas-exchange control |
 | `09_nonlinear_dynamics_chaos` | Nonlinear systems | Exploration of chaos and sensitivity to initial conditions in classical dynamical systems |
@@ -33,6 +31,14 @@ This project combines three related respiratory modules into one coherent study:
 - `gas_exchange_control/`: CO2/O2 gas exchange and ventilatory regulation
 
 The hemodialysis project in `05_hemodialysis_dynamics` remains separate because it belongs to a different physiological story centered on solute transport, ultrafiltration, and osmotic balance rather than respiratory mechanics and gas exchange.
+
+### `circulation_dynamics_control`
+This project combines the first three circulation exercises into one shared codebase:
+- `baseline_hemorrhage/`: open-loop circulation during hemorrhage
+- `methods_validation/`: Euler, eigen-decomposition, and matrix-exponential validation
+- `feedback_control/`: controlled versus uncontrolled circulation during hemorrhage
+- `shared/`: reusable parameters, input generation, simulation, and plotting helpers
+- `verify_circulation_project.m`: lightweight project-level execution and sanity checks
 
 ## Academic Focus
 
@@ -53,5 +59,5 @@ This repository highlights experience in:
 ## Notes
 
 - No external toolbox is required for the provided scripts.
-- The circulation modules are still separate at the repository root and can be consolidated in a later cleanup step.
+- The circulation and respiratory modules have been consolidated into project-style folders, while the remaining topics stay as standalone modules for now.
 - Parameter values are intentionally easy to modify for sensitivity testing.
